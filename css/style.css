@@ -1,0 +1,472 @@
+    .firstSec {
+        margin: 0%;
+    }
+    
+    .firstSec .navbar {
+        padding: 0;
+    }
+    
+    .firstSec .navbar nav {
+        background: rgba(0, 0, 0, 1);
+        color: white;
+        width: 100%;
+    }
+    
+    .firstSec .navbar nav .mainul {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+    }
+    
+    @media only screen and (max-width: 849px) {
+        .firstSec .navbar nav #navDivOne {
+            display: none;
+        }
+        .firstSec .navbar nav {
+            text-align: end;
+        }
+        .firstSec .navbar nav .navDivOne {
+            display: block !important;
+            position: relative;
+            z-index: 111;
+            display: flex;
+        }
+        .firstSec .navbar nav .navDivOne li {
+            background-color: black;
+            color: white;
+            padding: 5px 150px;
+            font-size: 20px;
+        }
+        .firstSec .navbar nav .mainul {
+            display: flex;
+            justify-content: end;
+            margin: 0;
+        }
+    }
+    
+    .firstSec .navbar nav ul div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .firstSec .navbar nav ul .divTwo {
+        padding-right: 6rem;
+    }
+    
+    @media only screen and (max-width: 992px) {
+        .firstSec .navbar nav ul .divTwo {
+            padding-right: 0rem;
+            padding: 0;
+        }
+    }
+    
+    .firstSec .navbar nav ul .divTwo .navIcon button {
+        background-color: transparent;
+        font-size: 25px;
+    }
+    
+    .firstSec .navbar nav ul div li {
+        padding: 0px 15px;
+        list-style-type: none;
+        align-items: center;
+    }
+    /* Swiper CSS */
+    
+    .First-Carousal .swiper {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .First-Carousal .swiper .text {
+        margin-left: 13rem;
+        margin-top: 10px;
+    }
+    
+    .First-Carousal .swiper .line {
+        margin-top: 5.3rem;
+    }
+    
+    .First-Carousal .swiper .line span hr {
+        color: white;
+        width: 15rem;
+        height: 3px;
+        background-color: #fcfcfc;
+        opacity: 1;
+        margin: 1.6rem 0px;
+    }
+    
+    .First-Carousal .swiper .buttons {
+        display: flex;
+        margin-top: 4rem;
+        margin-left: 11rem;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .First-Carousal .swiper .buttons {
+            display: flex;
+            margin-top: 0;
+            margin-left: 20px;
+        }
+        .firstSec .navbar nav .navDivOne li {
+            background-color: black;
+            color: white;
+            padding: 5px 10px;
+        }
+        .First-Carousal .swiper .text {
+            margin-left: 1rem;
+            margin-top: 10px;
+        }
+    }
+    
+    .First-Carousal .swiper .buttons button {
+        background-color: transparent;
+        border: none;
+        color: white;
+        margin-right: 30px;
+    }
+    
+    .First-Carousal .swiper .buttons button:hover {
+        border-bottom: 1px solid white;
+    }
+    
+    .First-Carousal .swiper-slide {
+        font-size: 18px;
+        background: #fff;
+        align-items: center;
+    }
+    
+    .First-Carousal .swiper-slide h1 {
+        color: white;
+        font-size: 70px;
+        font-weight: 300;
+    }
+    
+    .First-Carousal .swiper-slide h4 {
+        color: white;
+        font-weight: 300;
+    }
+    
+    .First-Carousal .swiper-slide h3 {
+        color: white;
+        font-weight: 200;
+    }
+    
+    .First-Carousal .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: 60px;
+        left: 0;
+        width: 100%;
+    }
+    
+    .First-Carousal .span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+        --swiper-theme-color: #fcfcfc;
+    }
+    
+    .First-Carousal .swiper-pagination-bullet {
+        background-color: rgb(196, 189, 189);
+    }
+    
+    .First-Carousal .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    /* Second Section Starts From Here */
+    
+    .secTwo {
+        background-color: black;
+    }
+    
+    .secTwo .container .secTwoDivOne {
+        margin-left: 8rem;
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+    }
+    
+    .secTwo .container .secTwoDivOne h2 {
+        color: white;
+        font-size: 45px;
+        font-weight: 200;
+    }
+    
+    .secTwo .container .secTwoDivOne p {
+        color: white;
+        font-size: 17px;
+        font-weight: 100;
+    }
+    
+    .secTwo .container .secTwoDivOne select {
+        width: 17rem;
+        font-size: 18px;
+        color: white;
+        background-color: black;
+        height: 3rem;
+        border-top: black;
+        border-left: black;
+        border-right: black;
+        border-bottom: 2px solid white;
+    }
+    
+    .secTwo .container .secTwoDivTwo {
+        width: 90%;
+        margin: 0px auto;
+    }
+    
+    .secTwo .container .card {
+        background: #151515;
+        padding: 5px 20px;
+        border-radius: 0%;
+    }
+    
+    .secTwo .container .card p {
+        color: white;
+        font-size: 17px;
+        text-align: start;
+    }
+    
+    .secTwo .container .card h3 {
+        color: white;
+        font-size: 30px;
+        font-weight: 100;
+        text-align: start;
+    }
+    
+    .secTwo .container .card button {
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        padding: 12px 10px;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    
+    .secTwo .container .card button:hover {
+        background-color: white;
+        color: black;
+        transition: ease-in-out;
+        transition-duration: 0.5s;
+    }
+    
+    .secTwo .container .card img {
+        height: 20vh;
+        background-color: #151515;
+    }
+    /* Second Carousal */
+    
+    .secTwo .container .secTwoDivTwo .swiper {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .secTwo .container .secTwoDivTwo .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        width: 315px !important;
+    }
+    
+    .secTwo .container .secTwoDivTwo .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .secTwo .container .secTwoDivTwo .swiper-second-pagination {
+        text-align: center;
+    }
+    
+    .secTwo .container .secTwoDivTwo .swiper-pagination-clickable .swiper-pagination-bullet {
+        cursor: pointer;
+        border: 2px solid white;
+        background: none;
+    }
+    /* Section Three Starts Here */
+    
+    .secThree .swiper {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .secThree .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        min-height: 87vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .secThree .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .secThree .swiper-three-pagination {
+        position: absolute;
+        text-align: center;
+        transition: .3s opacity;
+        transform: translate3d(0, 0, 0);
+        z-index: 10;
+    }
+    
+    .secThree .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: 60px;
+        left: 0;
+    }
+    
+    .secThree .swiper-pagination-clickable .swiper-pagination-bullet {
+        cursor: pointer;
+        border: 2px solid white;
+        background: none;
+    }
+    
+    @media(max-width: 600px) {
+        .secThree .swiper-slide {
+            min-height: 50vh;
+        }
+        .secTwo .container .secTwoDivOne {
+            margin-left: 1rem;
+        }
+    }
+    /* Section Four Styling Starts from Here */
+    
+    .secFour {
+        min-height: 40vh;
+        background-color: #151515;
+    }
+    
+    .secFour .container h2 {
+        color: white;
+        padding-left: 8rem;
+        padding-top: 9rem;
+        font-weight: 200;
+        font-size: 45px;
+    }
+    /* Section Five */
+    
+    .secFive .swiper {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .secFive .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 87vh;
+    }
+    
+    .secFive .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .secFive span.swiper-pagination-progressbar-fill {
+        --swiper-theme-color: #f5f8f6;
+    }
+    
+    .secFive .swiper-slide .row {
+        text-align: start;
+        line-height: 45px;
+    }
+    
+    .secFive .swiper-slide .row h2 {
+        color: white;
+        font-size: 45px;
+        font-weight: 200;
+    }
+    
+    .secFive .swiper-slide .row p {
+        color: white;
+        font-size: 18px;
+        font-weight: 200;
+    }
+    
+    .secFive .swiper-slide .row h6 {
+        color: white;
+    }
+    
+    .secFive #swiper-slide-three .row {
+        line-height: 32px;
+    }
+    
+    .secFive #swiper-slide-four .row {
+        line-height: 28px;
+    }
+    
+    .secFive #swiper-slide-five .row {
+        line-height: 30px;
+    }
+    
+    .secFive #swiper-slide-four .row button {
+        background-color: transparent;
+        border: none;
+        color: white;
+        border-bottom: 1px solid white;
+    }
+    
+    @media (max-width:576px) {
+        .secFive .swiper-slide .row .col-md-4 {
+            padding-top: 20px !important;
+            min-height: 50vh;
+        }
+        .secFive .swiper-slide .row {
+            padding: 0px 25px;
+        }
+        .secFive .swiper-slide {
+            min-height: 80vh;
+        }
+    }

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-.0">
+    <title>Swiper.js</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+
+    <section class="firstSec ">
+        <div class="navbar ">
+            <nav>
+                <ul class="mainul ">
+                    <div id="navDivOne">
+                        <img src="images/logo.jpg " alt=" " style="height: 100%; width: 10rem; ">
+                        <li>MODELS</li>
+                        <li>SHOPPING</li>
+                        <li>GENESIS</li>
+                        <li>OWNERS</li>
+                    </div>
+                    <div class="divTwo ">
+                        <li>SUPPORT</li>
+                        <li><i class="fas fa-search "></i></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              EN
+                            </a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item text-light" href="#">EN</a></li>
+                                <li><a class="dropdown-item text-light" href="#">AN</a></li>
+                            </ul>
+                        </li>
+                        <li class="navIcon"><button id="navButton"><i class="fas fa-bars" style="color: white;"></i></button></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="First-Carousal ">
+            <!-- Swiper -->
+            <div class="swiper mySwiper ">
+                <div class="swiper-wrapper ">
+                    <div class="swiper-slide" style="background-image: url(./images/carousal-img4.jpg); min-height: 82vh; background-size:cover; background-repeat: no-repeat;">
+                        <div class="text">
+                            <h3>GENESIS</h3>
+                            <h1>GV70</h1>
+                            <h4>BORN TO CREAT</h4>
+                        </div>
+
+                        <div class="line">
+                            <span><hr></span>
+                            <br>
+                            <span><hr></span>
+                        </div>
+
+                        <div class="buttons">
+                            <button>Discover More <span><i class="fas fa-angle-right"></i></span></button>
+                            <button>Book a Test Drive <span><i class="fas fa-angle-right"></i></span></button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url(./images/carousal-img2.jpg); min-height: 82vh; background-size:cover; background-repeat: no-repeat;">
+                        <div class="text">
+                            <h3>THE NEW GENESIS</h3>
+                            <h1>G70</h1>
+                            <h4>BORN TO MOVE</h4>
+                        </div>
+
+                        <div class="line">
+                            <span><hr></span>
+                            <br>
+                            <span><hr></span>
+                        </div>
+
+                        <div class="buttons">
+                            <button>Discover More <span><i class="fas fa-angle-right"></i></span></button>
+                            <button>Book a Test Drive <span><i class="fas fa-angle-right"></i></span></button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url(./images/carousal-img3.jpg); min-height: 82vh; background-size:cover; background-repeat: no-repeat;">
+                        <div class="text">
+                            <h3>GENESIS</h3>
+                            <h1>GV80</h1>
+                            <h4>THE FIRST SUV BY GENESIS <br> NOTHING FEELS LIKE THE FIRST TIME</h4>
+                        </div>
+
+                        <div class="line">
+                            <span><hr></span>
+                            <br>
+                            <span><hr></span>
+                        </div>
+
+                        <div class="buttons">
+                            <button>Discover More <span><i class="fas fa-angle-right"></i></span></button>
+                            <button>Book a Test Drive <span><i class="fas fa-angle-right"></i></span></button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url(./images/carousal-img1.jpg); min-height: 82vh; background-size:cover; background-repeat: no-repeat;">
+                        <div class="text">
+                            <h3>GENESIS</h3>
+                            <h1>GV80</h1>
+                            <h4>THE FIRST SUV BY GENESIS <br> NOTHING FEELS LIKE THE FIRST TIME</h4>
+                        </div>
+
+                        <div class="line">
+                            <span><hr></span>
+                            <br>
+                            <span><hr></span>
+                        </div>
+
+                        <div class="buttons">
+                            <button>Discover More <span><i class="fas fa-angle-right"></i></span></button>
+                            <button>Book a Test Drive <span><i class="fas fa-angle-right"></i></span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination "></div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Section Two Starts From Here -->
+
+
+    <section class="secTwo">
+        <div class="container">
+            <div class="secTwoDivOne">
+                <h2>OUR MODELS</h2>
+                <p>Explore Genesis vehicle line-up with its dynamic yet elegant design and cutting-edge technology.</p><br>
+                <select id="cars" name="cars">
+                    <option value="all">ALL</option>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
+                    </select>
+            </div>
+            <div class="secTwoDivTwo">
+                <div class="swiper mySecondSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <h3>G90</h3><br>
+                                <img src="images/card-img1.png" alt=""><br>
+                                <button>Discover More</button><br>
+                                <p>Book a Test Drive <span><i class="fas fa-angle-right"></i></span></p>
+                                <p>Download a Catelog <span><i class="fas fa-angle-right"></i></span></p><br>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <h3>G90</h3><br>
+                                <img src="images/card-img2.png" alt=""><br>
+                                <button>Discover More</button><br>
+                                <p>Book a Test Drive <span><i class="fas fa-angle-right"></i></span></p>
+                                <p>Download a Catelog <span><i class="fas fa-angle-right"></i></span></p><br>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <h3>G90</h3><br>
+                                <img src="images/card-img3.png" alt=""><br>
+                                <button>Discover More</button><br>
+                                <p>Book a Test Drive <span><i class="fas fa-angle-right"></i></span></p>
+                                <p>Download a Catelog <span><i class="fas fa-angle-right"></i></span></p><br>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <h3>G90</h3><br>
+                                <img src="images/card-img4.png" alt=""><br>
+                                <button>Discover More</button><br>
+                                <p>Book a Test Drive <span><i class="fas fa-angle-right"></i></span></p>
+                                <p>Download a Catelog <span><i class="fas fa-angle-right"></i></span></p><br>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <h3>G90</h3><br>
+                                <img src="images/card-img5.png" alt=""><br>
+                                <button>Discover More</button><br>
+                                <p>Book a Test Drive <span><i class="fas fa-angle-right"></i></span></p>
+                                <p>Download a Catelog <span><i class="fas fa-angle-right"></i></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-second-pagination"></div><br>
+                </div>
+
+            </div>
+    </section>
+
+
+    <!-- Section Two Ends Here -->
+
+
+    <section class="secThree">
+        <div class="swiper myThirdSwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url(./images/second-carousal-img1.jpg);"></div>
+                <div class="swiper-slide" style="background-image: url(./images/second-carousal-img2.jpg);"></div>
+                <div class="swiper-slide" style="background-image: url(./images/second-carousal-img3.jpg);"></div>
+                <div class="swiper-slide" style="background-image: url(./images/second-carousal-img4.jpg);"></div>
+                <div class="swiper-slide" style="background-image: url(./images/second-carousal-img5.jpg);"></div>
+
+            </div>
+            <div class="swiper-three-pagination"></div>
+        </div>
+    </section>
+
+    <section class="secFour">
+        <div class="container">
+            <h2>THE AWARDS</h2>
+        </div>
+    </section>
+
+    <section class="secFive">
+
+        <div class="swiper myFourthSwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" id="swiper-slide-one" style="background-image: url(./images/award-img1.jpg);">
+                    <div class="row">
+                        <div class="col-md-1 col-sm-2"></div>
+                        <div class="col-md-4 col-sm-8">
+                            <h2>2021 IIHS TOP SAFETY PICK+</h2>
+                            <p>The Insurance Institute for Highway Safety (IIHS) announced that the first-ever 2021 Genesis GV80 SUV has been designated as '2021 IIHS TOP SAFETY PICK+'. GV80 joins the 2021 G70 sport sedan and 2021 G90 flagship sedan with
+                                top honors and prior to this, G70, G80 and G90 all received 'IIHS TOP SAFETY PICK+'. designations for two years in a row in 2019 and 2020.</p>
+                            <h6>* Only applies to US models</h6>
+                        </div>
+                        <div class="col-md-6 col-sm-2"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="swiper-slide-two" style="background-image: url(./images/award-img2.jpg);">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-2"></div>
+                        <div class="col-md-4 col-sm-8" style="padding-top: 250px;">
+                            <h2>2020 RED DOT <br> AWARDS</h2>
+                            <p>Genesis announced earning four 2020 Red Dot Awards. The brand was recognized with four awards within the Interface, Retail and Spatial Communication Design sub-categories.
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-sm-2"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="swiper-slide-three" style="background-image: url(./images/award-img3.jpg);">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-2"></div>
+                        <div class="col-md-4 col-sm-6" style="padding-top: 270px;">
+                            <h2>2020 GOOD DESIGN® AWARD</h2>
+                            <p>Striking the perfect balance between athleticism and elegance, both the G80 and GV80 took home prizes at the 2020 GOOD DESIGN® Awards.</p>
+                        </div>
+                        <div class="col-md-6 col-sm-2"></div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide" id="swiper-slide-four" style="background-image: url(./images/award-img4.jpg);">
+                    <div class="row">
+                        <div class="col-md-7 col-sm-1"></div>
+                        <div class="col-md-4 col-sm-10" style="padding-top: 250px;">
+                            <h2>CONCEPT CARS</h2>
+                            <p>We strive for designs that connect emotionally with our customers at all levels through their perfect athletic proportions, precise craftsmanship and attention to every detail.</p>
+                            <button>Discover More <span><i class="fas fa-angle-right"></i></span></button>
+                        </div>
+                        <div class="col-md-1 col-sm-1"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="swiper-slide-five" style="background-image: url(./images/award-img5.jpg);">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-2"></div>
+                        <div class="col-md-4 col-sm-8" style="padding-top: 200px;">
+                            <h2>NORTH <br> AMERICAN CAR <br> OF THE YEAR <br> 2019</h2>
+                            <p>We’re honored to announce the Genesis G70 was named the 2019 NACTOY®. The award inspires us to continue our ambition to create quality vehicles for our drivers.</h6>
+                        </div>
+                        <div class="col-md-6 col-sm-2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js "></script>
+    <script src="https://kit.fontawesome.com/yourcode.js " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js "></script>
+    <script src="js/script.js "></script>
+</body>
+
+</html>
